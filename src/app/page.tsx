@@ -1,5 +1,7 @@
-import {Button} from "@/components/ui/button";
+"use client";
+
+import CardForm from "@/components/ui/cardform";
 
 export default function HomePage() {
-  return <Button>👋</Button>;
+  return <CardForm />;
 }
